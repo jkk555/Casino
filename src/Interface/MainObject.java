@@ -37,9 +37,6 @@ public interface MainObject
      Label money_viev = new Label("Money: ");
 
      Scene scene_main = new Scene(MainObject.root1, MainObject.WIDTH, MainObject.HEIGHT);
-
-     //Elementy odpowiedzialne za zrobienie screenshota w tym kombinacja klawiszy ctrl+C oraz wysokość i szerokość screenshota
-     /*  KeyCombination kk = new KeyCodeCombination(KeyCode.C, KeyCombination.CONTROL_DOWN);
-     WritableImage w = new WritableImage(MainObject.WIDTH, MainObject.HEIGHT); */
+     
 
 }
