@@ -69,7 +69,7 @@ public class MainClass extends Application implements MainObject, GraphObject {
          */
 
         String stankonta;
-        File file = new File("E:/Casino-Alpha/konto.txt");
+        File file = new File("konto.txt");
         Scanner load = new Scanner(file);
 
         scene_main.setFill(Color.RED);
